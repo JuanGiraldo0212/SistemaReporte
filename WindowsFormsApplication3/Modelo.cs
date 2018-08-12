@@ -23,7 +23,7 @@ namespace Tarea1
         }
         public void cargarUsuarios() {
         
-            String pathUsuarios = @"C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\Usuarios.txt";
+            String pathUsuarios = @"E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\Usuarios.txt";
             List<String> lines = File.ReadAllLines(pathUsuarios).ToList();
             foreach (string item in lines) {
                 String[] split = item.Split('-');

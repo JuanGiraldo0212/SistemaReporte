@@ -25,3 +25,17 @@ C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\Wi
 C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl2.resources
 C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Ventana.resources
 C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csproj.GenerateResource.Cache
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csprojAssemblyReference.cache
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.LoginUsuario.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl1.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl2.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Ventana.resources
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csproj.GenerateResource.cache
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csproj.CoreCompileInputs.cache
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
