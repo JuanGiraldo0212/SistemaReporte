@@ -39,5 +39,10 @@ namespace Tarea1
         {
          
         }
+
+        private void userControl21_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

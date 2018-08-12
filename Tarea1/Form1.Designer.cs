@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.userControl21 = new Tarea1.UserControl2();
             this.SuspendLayout();
+            // 
+            // userControl21
+            // 
+            this.userControl21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("userControl21.BackgroundImage")));
+            this.userControl21.Location = new System.Drawing.Point(-1, 0);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(481, 501);
+            this.userControl21.TabIndex = 0;
+            this.userControl21.Load += new System.EventHandler(this.userControl21_Load);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 562);
+            this.ClientSize = new System.Drawing.Size(478, 498);
+            this.Controls.Add(this.userControl21);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +55,8 @@
         }
 
         #endregion
+
+        private UserControl2 userControl21;
     }
 }
 
