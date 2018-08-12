@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Ventana : Form
+    public partial class Form1 : Form
     {
-        public Ventana()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void userControl11_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void userControl21_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

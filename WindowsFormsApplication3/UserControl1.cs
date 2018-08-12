@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    public partial class Ventana : Form
+    public partial class UserControl1 : UserControl
     {
-        public Ventana()
+        public UserControl1()
         {
             InitializeComponent();
         }
 
-        private void userControl11_Load(object sender, EventArgs e)
+        private void UserControl1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form1 ventanita = new Form1();
+            ventanita.Show();
         }
     }
 }
