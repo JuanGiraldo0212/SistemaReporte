@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tarea1.Properties
+namespace WindowsFormsApplication3.Properties
 {
 
 

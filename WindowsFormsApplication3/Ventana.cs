@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tarea1
+namespace WindowsFormsApplication3
 {
-    public partial class Form2 : Form
+    public partial class Ventana : Form
     {
-        public Form2()
+        public Ventana()
         {
             InitializeComponent();
-        }
-
-        private void userControl11_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }
