@@ -37,7 +37,7 @@ namespace WindowsFormsApplication3
 
         private void button6_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter("C://Users//juan-//Source//Repos//SistemaReporte//WindowsFormsApplication3//Objetos.txt");
+            StreamWriter file = new StreamWriter("..\\..\\Objetos.txt");
             Modelo model = Ventana.darModelo();
             List<Objeto> listaObjetos = model.getObjetos();
             foreach (Objeto item in listaObjetos) {
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication3
 
         private void button7_Click(object sender, EventArgs e)
         {
-            String pathUsuarios = @"C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\Objetos.txt";
+            String pathUsuarios = "..\\..\\Objetos.txt";
             List<String> lines = File.ReadAllLines(pathUsuarios).ToList();
             Modelo model = Ventana.darModelo();
             List<Objeto> lista = model.getObjetos();

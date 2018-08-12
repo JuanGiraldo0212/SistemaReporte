@@ -39,3 +39,4 @@ E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\D
 E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csproj.CoreCompileInputs.cache
 E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
 E:\RepositoriosGit\SistemaReportes\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csprojResolveAssemblyReference.cache
