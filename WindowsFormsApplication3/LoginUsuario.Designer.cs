@@ -71,6 +71,7 @@
             this.Controls.Add(this.textBox3);
             this.Name = "LoginUsuario";
             this.Size = new System.Drawing.Size(496, 559);
+            this.Load += new System.EventHandler(this.LoginUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

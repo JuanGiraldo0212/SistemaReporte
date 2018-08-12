@@ -46,6 +46,7 @@
             this.button4.Size = new System.Drawing.Size(54, 58);
             this.button4.TabIndex = 0;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -73,6 +74,7 @@
             this.button6.Size = new System.Drawing.Size(54, 58);
             this.button6.TabIndex = 2;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -86,6 +88,7 @@
             this.button7.Size = new System.Drawing.Size(54, 58);
             this.button7.TabIndex = 3;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // UserControl1
             // 

@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Tarea1
 {
-    class Modelo
+    public class Modelo
     {
 
         private List<Objeto> objetos;
@@ -33,9 +33,19 @@ namespace Tarea1
             
         }
 
+        public void agregarArticulo(Objeto nuevo) {
+
+            objetos.Add(nuevo);
+        }
+
         public Hashtable getUsuarios() {
 
             return usuarios;
+        }
+
+        public List<Objeto> getObjetos() {
+
+            return objetos;
         }
        
     }

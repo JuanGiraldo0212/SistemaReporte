@@ -128,6 +128,7 @@
     <Content Include="BotonUpload.png" />
     <Content Include="Interfaz2.png" />
     <Content Include="LoginBackground1.png" />
+    <Content Include="Objetos.txt" />
     <Content Include="Usuarios.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

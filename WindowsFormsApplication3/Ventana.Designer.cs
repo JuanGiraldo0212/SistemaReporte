@@ -29,18 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventana));
-            this.userControl12 = new WindowsFormsApplication3.UserControl1();
             this.userControl11 = new WindowsFormsApplication3.LoginUsuario();
+            this.userControl12 = new WindowsFormsApplication3.UserControl1();
             this.SuspendLayout();
-            // 
-            // userControl12
-            // 
-            this.userControl12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("userControl12.BackgroundImage")));
-            this.userControl12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.userControl12.Location = new System.Drawing.Point(-14, -4);
-            this.userControl12.Name = "userControl12";
-            this.userControl12.Size = new System.Drawing.Size(481, 527);
-            this.userControl12.TabIndex = 1;
             // 
             // userControl11
             // 
@@ -52,6 +43,15 @@
             this.userControl11.Size = new System.Drawing.Size(481, 527);
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
+            // 
+            // userControl12
+            // 
+            this.userControl12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("userControl12.BackgroundImage")));
+            this.userControl12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.userControl12.Location = new System.Drawing.Point(-14, -4);
+            this.userControl12.Name = "userControl12";
+            this.userControl12.Size = new System.Drawing.Size(481, 527);
+            this.userControl12.TabIndex = 1;
             // 
             // Ventana
             // 

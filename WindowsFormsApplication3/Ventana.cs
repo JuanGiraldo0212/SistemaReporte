@@ -7,19 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tarea1;
 
 namespace WindowsFormsApplication3
 {
     public partial class Ventana : Form
     {
+        private static Modelo model;
         public Ventana()
         {
+            model = new Modelo();
             InitializeComponent();
+        }
+
+        public static Modelo darModelo() {
+            return model;
+
         }
 
         private void userControl11_Load(object sender, EventArgs e)
         {
-
+          
         }
     }
 }

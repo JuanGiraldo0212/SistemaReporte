@@ -6,22 +6,46 @@ using System.Threading.Tasks;
 
 namespace Tarea1
 {
-    class Objeto
+    public class Objeto
     {
         private String articulo;
         private String color;
         private String fecha;
         private String hora;
         private String lugar;
-        private String descripcion;
 
-        public Objeto(String articulo,String color, String fecha, String hora, String lugar, String descripcion) {
+
+        public Objeto(String articulo,String color, String fecha, String hora, String lugar ) {
             this.articulo = articulo;
             this.color = color;
             this.fecha = fecha;
             this.hora = hora;
             this.lugar = lugar;
-            this.descripcion = descripcion;
+           
+        }
+
+        public String getArticulo() {
+            return articulo;
+        }
+
+        public String getColor()
+        {
+            return color;
+        }
+
+        public String getFecha()
+        {
+            return fecha;
+        }
+
+        public String getHora()
+        {
+            return hora;
+        }
+
+        public String getLugar()
+        {
+            return lugar;
         }
 
     }

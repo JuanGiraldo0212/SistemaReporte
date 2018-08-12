@@ -15,7 +15,6 @@ namespace WindowsFormsApplication3
     public partial class LoginUsuario : UserControl
     {
 
-        Modelo hola = new Modelo();
         public LoginUsuario()
         {
             InitializeComponent();
@@ -25,6 +24,7 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Modelo hola = Ventana.darModelo();
             Hashtable hash = hola.getUsuarios();
             String usuario = textBox3.Text;
             if (hash.ContainsKey(usuario))
@@ -46,6 +46,11 @@ namespace WindowsFormsApplication3
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void LoginUsuario_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

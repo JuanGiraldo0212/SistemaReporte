@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Tarea1;
 
 namespace WindowsFormsApplication3
 {
@@ -26,6 +28,42 @@ namespace WindowsFormsApplication3
         {
             Form1 ventanita = new Form1();
             ventanita.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter("C://Users//juan-//Source//Repos//SistemaReporte//WindowsFormsApplication3//Objetos.txt");
+            Modelo model = Ventana.darModelo();
+            List<Objeto> listaObjetos = model.getObjetos();
+            foreach (Objeto item in listaObjetos) {
+                file.WriteLine((item.getArticulo()+"-"+item.getColor()+"-"+item.getFecha()+"-"+item.getHora()+"-"+item.getLugar()).Trim());
+            }
+            
+            file.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            String pathUsuarios = @"C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\Objetos.txt";
+            List<String> lines = File.ReadAllLines(pathUsuarios).ToList();
+            Modelo model = Ventana.darModelo();
+            List<Objeto> lista = model.getObjetos();
+            foreach (string item in lines)
+            {
+                String[] split = item.Split('-');
+                String articulo = split[0];
+                String color = split[1];
+                String fecha = split[2];
+                String hora = split[3];
+                String lugar = split[4];
+                Objeto nuevo = new Objeto(articulo,color,fecha,hora,lugar);
+                lista.Add(nuevo);
+            }
         }
     }
 }
