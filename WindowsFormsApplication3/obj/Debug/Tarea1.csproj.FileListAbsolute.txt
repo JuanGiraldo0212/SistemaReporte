@@ -13,3 +13,15 @@ E:\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplicati
 E:\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
 E:\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl2.resources
 E:\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csprojAssemblyReference.cache
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.LoginUsuario.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl1.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl2.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Ventana.resources
+C:\Users\juan-\Source\Repos\SistemaReporte\WindowsFormsApplication3\obj\Debug\Tarea1.csproj.GenerateResource.Cache
