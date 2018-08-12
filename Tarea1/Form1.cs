@@ -36,7 +36,15 @@ namespace Tarea1
 
         private void button2_Click(object sender, EventArgs e)
         {
-         
+            Hashtable hash = hola.getUsuarios();
+            String usuario = textBox1.Text;
+            var pass = hash[usuario];
+            if (pass.Equals(textBox2.Text)) {
+                label1.Text = "Correcto";
+            }
+            this.Hide();
+            Form2 f = new Form2();
+            f.Show();
         }
 
         private void userControl21_Load(object sender, EventArgs e)
