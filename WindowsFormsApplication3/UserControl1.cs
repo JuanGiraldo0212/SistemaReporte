@@ -32,7 +32,8 @@ namespace WindowsFormsApplication3
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Form2 ventanita = new Form2();
+            ventanita.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -64,6 +65,11 @@ namespace WindowsFormsApplication3
                 Objeto nuevo = new Objeto(articulo,color,fecha,hora,lugar);
                 lista.Add(nuevo);
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
