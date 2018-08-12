@@ -18,17 +18,19 @@ namespace Tarea1
 
             objetos = new List<Objeto>();
             usuarios = new Hashtable();
+            cargarUsuarios();
             
         }
         public void cargarUsuarios() {
         
-            String pathUsuarios = @"C:\Users\juan-\Desktop\App\Usuarios.txt";
+            String pathUsuarios = @"C:\Users\juan-\Source\Repos\SistemaReporte\Tarea1\Data\Usuarios.txt";
             List<String> lines = File.ReadAllLines(pathUsuarios).ToList();
             foreach (string item in lines) {
                 String[] split = item.Split('-');
                 usuarios.Add(split[0],split[1]);
                 Console.WriteLine("ok");
             }
+            
         }
 
         public Hashtable getUsuarios() {

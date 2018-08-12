@@ -14,7 +14,6 @@ namespace Tarea1
     public partial class Form1 : Form
     {
 
-        Modelo hola = new Modelo();
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +31,7 @@ namespace Tarea1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            hola.cargarUsuarios();
+       
         }
 
         private void button2_Click(object sender, EventArgs e)

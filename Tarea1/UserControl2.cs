@@ -23,16 +23,23 @@ namespace Tarea1
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             Hashtable hash = hola.getUsuarios();
             String usuario = textBox1.Text;
-            var pass = hash[usuario];
-            if (pass.Equals(textBox2.Text))
+            if (hash.ContainsKey(usuario))
             {
-                textBox1.Text = "Correcto";
+                var pass = hash[usuario];
+                if (pass.Equals(textBox2.Text))
+                {
+                    textBox1.Text = "Correcto";
+                }
+                this.Hide();
+                Form2 f = new Form2();
+                f.Show();
             }
-            this.Hide();
-            Form2 f = new Form2();
-            f.Show();
+            else {
+                Console.WriteLine("No existe");
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
