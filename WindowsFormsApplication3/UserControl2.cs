@@ -13,6 +13,25 @@ namespace WindowsFormsApplication3
 {
     public partial class UserControl2 : UserControl
     {
+
+        public void agregarArticulo() {
+
+            Modelo model = Ventana.darModelo();
+            String objeto = textBox1.Text;
+            String lugar = textBox2.Text;
+            String hora = textBox3.Text;
+            String fecha = textBox4.Text;
+            String color = textBox5.Text;
+            Objeto nuevo = new Objeto(objeto, color, fecha, hora, lugar);
+            model.agregarArticulo(nuevo);
+
+            textBox1.Text = "Nombre";
+            textBox2.Text = "lugar";
+            textBox3.Text = "hora";
+            textBox4.Text = "fecha";
+            textBox5.Text = "color";
+        
+    }
         public UserControl2()
         {
             InitializeComponent();
@@ -41,20 +60,7 @@ namespace WindowsFormsApplication3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Modelo model = Ventana.darModelo();
-            String objeto = textBox1.Text;
-            String lugar = textBox2.Text;
-            String hora = textBox3.Text;
-            String fecha = textBox4.Text;
-            String color = textBox5.Text;
-            Objeto nuevo = new Objeto(objeto,color,fecha,hora,lugar);
-            model.agregarArticulo(nuevo);
-
-            textBox1.Text = "Nombre";
-            textBox2.Text = "lugar";
-            textBox3.Text = "hora";
-            textBox4.Text = "fecha";
-            textBox5.Text = "color";
+            agregarArticulo();
         }
     }
 }

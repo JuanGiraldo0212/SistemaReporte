@@ -16,28 +16,8 @@ namespace WindowsFormsApplication3
         private Modelo model=Ventana.darModelo();
         private List<Objeto> lista;
 
-        public UserControl3()
-        {
-            InitializeComponent();
-            lista = model.getObjetos();
-        }
+        public void reporteArticulos() {
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
             if (checkBox2.Checked)
             {
                 var consulta = from s in lista
@@ -46,7 +26,7 @@ namespace WindowsFormsApplication3
                 String msg = "";
                 foreach (Objeto item in consulta)
                 {
-                    msg += "Articulo: " + item.getArticulo() + "-Color: " + item.getColor() + "-Lugar: " + item.getLugar() + "-Fecha: " + item.getFecha() + "-Hora: " + item.getHora() + "\n";
+                    msg += "Articulo: " + item.getArticulo() + "-Color: " + item.getColor() + "-Lugar: " + item.getLugar() + "-Fecha: " + item.getFecha() + "-Hora: " + item.getHora() + "\n" + "\n";
                 }
                 richTextBox1.Text = msg;
 
@@ -79,17 +59,42 @@ namespace WindowsFormsApplication3
                 richTextBox1.Text = msg;
 
             }
-            else {
+            else
+            {
                 var consulta = from s in lista
                                select s;
                 String msg = "";
                 foreach (Objeto item in consulta)
                 {
-                    msg += "Articulo: " + item.getArticulo() + "-Color: " + item.getColor() + "-Lugar: " + item.getLugar() + "-Fecha: " + item.getFecha() + "-Hora: " + item.getHora() + "\n"+"\n";
+                    msg += "Articulo: " + item.getArticulo() + "-Color: " + item.getColor() + "-Lugar: " + item.getLugar() + "-Fecha: " + item.getFecha() + "-Hora: " + item.getHora() + "\n" + "\n";
                 }
                 richTextBox1.Text = msg;
 
             }
+        }
+        public UserControl3()
+        {
+            InitializeComponent();
+            lista = model.getObjetos();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            reporteArticulos();
 
         }
 
