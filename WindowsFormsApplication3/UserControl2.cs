@@ -49,6 +49,12 @@ namespace WindowsFormsApplication3
             String color = textBox5.Text;
             Objeto nuevo = new Objeto(objeto,color,fecha,hora,lugar);
             model.agregarArticulo(nuevo);
+
+            textBox1.Text = "Nombre";
+            textBox2.Text = "lugar";
+            textBox3.Text = "hora";
+            textBox4.Text = "fecha";
+            textBox5.Text = "color";
         }
     }
 }

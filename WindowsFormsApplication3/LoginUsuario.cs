@@ -32,14 +32,19 @@ namespace WindowsFormsApplication3
                 var pass = hash[usuario];
                 if (pass.Equals(textBox4.Text))
                 {
-                    textBox3.Text = "Correcto";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    this.SendToBack();
                 }
-                this.Hide();
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrecta.");
+                }
                 
             }
             else
             {
-                Console.WriteLine("No existe");
+                MessageBox.Show("Usuario o contraseña incorrecta.");
             }
         }
 
